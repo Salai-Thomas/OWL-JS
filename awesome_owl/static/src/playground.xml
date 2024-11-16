@@ -3,7 +3,7 @@
 
     <t t-name="awesome_owl.playground">
         <Counter/>
-        <Counter/>
+        <Card title="'Card 1'" content="'Content of Card 1'"></Card>
     </t>
 
 </templates>

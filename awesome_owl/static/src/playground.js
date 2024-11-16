@@ -1,7 +1,8 @@
 /** @odoo-module **/
 
 import { Component, useState } from "@odoo/owl";
-import {Counter} from "./counter/counter"
+import {Counter} from "./counter/counter";
+import {Card} from "./card/card";
 
 export class Playground extends Component {
     static template = "awesome_owl.playground";
@@ -12,9 +13,8 @@ export class Playground extends Component {
 
     increment(){
         this.state.value++;
-        console.log(this.state.value++)
     }
 
-    static components = {Counter};
+    static components = {Counter,Card};
 
 }

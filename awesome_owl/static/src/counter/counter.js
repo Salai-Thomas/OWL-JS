@@ -7,7 +7,6 @@ export class Counter extends Component {
 
     setup(){
         this.state = useState({value:0})
-
     }
 
     increment(){
